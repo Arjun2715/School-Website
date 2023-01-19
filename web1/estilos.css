@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    margin: 0 20%;
+    background-color: #5D96A9;
+}
+
+/* Aqui es el maqueta del Titulo----------------------------------------------------------------- */
+.titulo{
+    margin-top: 20px;
+    padding: 2% 10%;
+    display: flex;
+    flex-direction:column ;
+    background-color: #ffffff;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    color: #022C5E;
+    font-family: "Montserrat",sans-serif;
+    background-color: #ffffff;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+/* aqui es el maqueta del navegador----------------------------------------------------------------- */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: center;
+}
+
+.nav_btn{
+    padding: 8px 20px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;  
+    font-family: "Montserrat",sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li:hover a:hover {
+    background-color: #022C5E;
+    color: #ffffff;
+}
+
+.barra_nav{
+    border-bottom: 5px solid #022C5E;
+    height:5px;
+
+}
+/* --------------------------------------------------------------------------------------------- */
+article{
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    margin-top: 5px;
+    align-items: center;
+}
+
+.eventos_links{
+    width: 600px;
+    padding: 10px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    background: #F5F5F5;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: "Montserrat",sans-serif;
+}
+.eventos{
+    background-color: #F5F5F5;
+    margin: 5px;
+    margin-bottom: 20px;
+}
+.titulo_evento_links{
+    background-color: #F5F5F5;
+    font-size: 25px;
+    margin:0 0 10px 0 ;
+}
+.barra_hor{
+    border-bottom: 3px solid #022C5E;
+    width: inherit;
+}
+.dia_evento{
+    font-size: 13px;
+}
+.evetos_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: #F0C000;
+    cursor: pointer;
+}
+.evetos_info:hover{
+    background-color: #e6cb63;
+}
+.evento_cont{
+    font-size: 13px;
+    width: auto;
+    position: relative;
+}
+
+.dia_grande{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+}
+.dia_info{
+    font-size: 10px;
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+.barra{
+    border-left: 3px solid #022C5E;
+    height:inherit;
+    margin: 5px;
+}
+.lugar{
+    font-size: 15px;
+}
+
+/* Aqui es maqueta de enlaces------------------------------------------------------------------------- */
+.enlaces{
+    background-color: #F5F5F5;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    
+    
+}
+.act_nombre{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.act_tipo{
+    padding: 10px 5px ;
+    text-align: center;
+    font-size: 15px;
+    background-color: #2177A3;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+.act_tipo:hover{
+    background-color: #52b0df;
+    color: #000000;
+}
+
+/* aqui es el maqueta del articulo------------------------------------------------------------------------*/
+
+.arti_cont{
+    margin: 20px 10px;
+}
+.arti_img{
+    padding: 10px;
+    height: 50%;
+    width: 100%;
+}
+p{
+    font-family:"Montserrat",sans-serif;
+    color: #000000;
+    text-decoration: none;
+}
+.bio_p{
+    font-family:"Montserrat",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bio_cole{
+    padding: 5px 0 ;
+    margin: 15px 0;
+}
+.benvi_main{
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+}
+
+/* maqueta del footer -----------------------------------------------------------------------------*/
+footer{
+    background-color: #F0C000;
+    margin: 5px 0;
+    margin-bottom: 20px;
+}
+.foot_cont{
+    padding: 10px;
+    margin: 0 20px;
+}
+/* todas las maquetas de la pagina cursos    */
+.arti_cursos{
+    margin: 10px 180px;
+}
+/* todas las maquetas del pagina colaboraciones */
+
+.arti_colab{
+    margin: 10px 180px;
+}
+.emp_logo_cont{
+    padding: 10px;
+}
+.emp{
+ background-color: #F5F5F5;
+}
+
+.emp_logo{
+    padding: 5px;
+    margin: 10px;
+    height: 150px;
+    width: 170px;
+    background-color: #F0C000;
+    cursor: pointer;
+} 
+
+.emp_logo:hover{
+    background-color: #e6cb63;
+    cursor: pointer;
+}
+
+/* maqueta del pagina contacto ---------------------------------------- */
+.contacto_back{
+    background-color: #F5F5F5;
+    height: initial;
+    width: auto;
+    padding: 5% 0;
+}
+
+.formulario{
+    margin: auto;
+    padding: 40px;
+    border-radius: 5px;
+    background-color: #F0C000;
+}
+
+.campo{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 300;
+}
+
+input{
+    width: 300px;
+}
+
+.ele_espacio{
+    margin: 5px 0;
+    padding: 10px;
+}
+
+textarea{
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    max-width: 800px;
+}
+
+.btn_send{
+    height: 50px;
+    width: auto;
+    margin: 0 30%;
+    padding: 0 10px;
+    background-color: #022C5E;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.btn_send:hover{
+    background-color: #2177A3;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+/* pagina noticias ---------------------------------------------------------------------------------*/
+.arti_cont_not{
+    margin: 5% 20%;
+    width: auto;
+}
+
+
+/* pagina professores--------------------------------------------------------------------------------*/
+.arti_cont_pro{
+    margin: 20px 50px;
+    width: auto;
+}
+
+.tabla_ul{
+    background-color: #F5F5F5;
+    
+}
+
+.tabla_li{
+    background-color: #F0C000;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tabla_li:hover{
+    background-color: #022C5E;
+    color: #ffffff;
+}
+
+.profe{
+    font-family: "Montserrat",sans-serif;
+}
+
+.img_profe{
+    background-color: #F0C000;
+}
